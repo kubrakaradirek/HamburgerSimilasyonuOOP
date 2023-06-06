@@ -1,0 +1,23 @@
+Hamburgerci Simülasyonu 
+
+Proje Tanımı 
+
+ 
+
+Günlük hayatın içerisinde, bir stant önünden yiyecek siparişi verirken izlediğimiz yolları gözünüzün önüne getirin, örneğin bir Mc Donalds standının önünde yiyecek siparişi verirken yaptıklarımız, öncelikle yemek istediğimiz ürüne veya ürünlere karar veriyoruz veya bir menü tercihi yapıyoruz, içeceklerimizi seçiyoruz, istemediğimiz ürünlerin menüden çıkartılmasını isteyebiliyoruz, sıramızı bekliyoruz, sonrasında siparişimizi vererek ücretimizi ödüyoruz ve siparişimizin hazırlanmasını bekliyoruz, siparişimizin hazırlandığı bildirildiği taktirde gidip siparişimizi teslim alıyoruz. 
+
+Bu projede belirtilen örnekte olduğu gibi çalışan bir uygulama yazılmasını istiyoruz. Programda temel olarak müşteriler, ürünler ve sabit miktarda çalışan mevcut. Her ürünün kendisine göre bir üretim süresi bulunmaktadır, Bir çalışan aynı anda hem sipariş edilen ürünü hazırlayıp, hemde sipariş alamaz. Üretimde olan çalışanların tamamı dolu oldukları taktirde sipariş alımı gerçekleştirilememektedir. Çalışanları kasa veya üretim kısmına yerleştirme işlemini kullanıcı kendi isteğine göre değiştirebilmektedir. 
+
+Proje İçeriği 
+
+ 
+
+Uygulamada sabir sayıda çalışan bulunmaktadır (4-5 kişi). Çalışanlar iki farklı konumda da çalışabilirler. Kasada sipariş alabilir veya arka tarafta üretim yapabilirler. Maksimum 3 kasa bulunabilir (Tercihe bağlıdır gerçekte her zaman tek kasa vardır). Çalışanların yerleşim planına kullanıcı karar verecektir. Bir çalışan havuzumuz bulunmaktadır. Bu havuzda boşta bulunan elemanlar tutulacaktır. Kasada sipariş alan çalışan, havuzda boşta bulunan çalışana siparişi verecek, siparşi alan ürünü hazırlamaya başlayacaktır. Sipariş verilebilecek boşta çalışan kalmayana kadar, kasada ki çalışan sipariş almaya devam edecektir. Boşta çalışan kalmadığı taktirde sipariş alma işlemi durdurulacaktır. Ne zaman üretim de görevli bir çalışan boş kalırsa o zaman sipariş alınacaktır. 
+
+Belirli sayıda ürün bulunacak. Her ürünün kendisine ait bir hazırlanma süresi ve beğenilme oranı mevcuttur. Bu süre müşterinin istedikleri doğrultusunda artabilir veya azabilir. Bu sürelere bağlı olarak çalışan o süre boyunca başka bir iş alamaz. 
+
+Ayrıca günlük yapılan satışları takip edebilmek amacıyla rapor hazırlanması gerekmektedir. 
+
+ 
+
+*** Projeyi yazarken OOP prensiplerini uygulamaya özen gösterin, arayüz tasarımı (console veya windows forms) kullanılmasına gerek yoktur, proje sadece class library olarak oluşturulacak. Projede kullanacağınız yapıları mümkün olduğunca class lara ayırın, mümkün olduğunca enum kullanın, metotlarınız için mümkün olduğunca interface kullanın, abstract class kullanmaya çalışın.***  
